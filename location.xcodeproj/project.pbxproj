@@ -22,6 +22,8 @@
 		3073512D1E197C4500E46653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		307351301E197C4500E46653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		307351321E197C4500E46653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307351381E19849B00E46653 /* LondonEye.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LondonEye.gpx; sourceTree = "<group>"; };
+		307351391E19884500E46653 /* London.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = London.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,14 @@
 		307351251E197C4500E46653 /* location */ = {
 			isa = PBXGroup;
 			children = (
+				307351381E19849B00E46653 /* LondonEye.gpx */,
+				307351391E19884500E46653 /* London.gpx */,
 				307351261E197C4500E46653 /* AppDelegate.swift */,
 				307351281E197C4500E46653 /* ViewController.swift */,
-				3073512A1E197C4500E46653 /* Main.storyboard */,
-				3073512D1E197C4500E46653 /* Assets.xcassets */,
-				3073512F1E197C4500E46653 /* LaunchScreen.storyboard */,
 				307351321E197C4500E46653 /* Info.plist */,
+				3073512D1E197C4500E46653 /* Assets.xcassets */,
+				3073512A1E197C4500E46653 /* Main.storyboard */,
+				3073512F1E197C4500E46653 /* LaunchScreen.storyboard */,
 			);
 			path = location;
 			sourceTree = "<group>";
